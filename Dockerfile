@@ -1,5 +1,5 @@
 # ベースイメージとして Red Hat UBI 8 OpenJDK 17 を使用
-FROM registry.access.redhat.com/ubi8/openjdk-17:1.14
+FROM registry.access.redhat.com/ubi8/openjdk-17:latest
 
 # root ユーザーで証明書を更新
 USER root
